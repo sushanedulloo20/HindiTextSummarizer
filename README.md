@@ -65,7 +65,7 @@ Two model check points will be created :
 | ROUGE-2 (F-measure) | 0.469463 |
 | ROUGE-3 (F-measure) | 0.543192 |
 
-### Distilee mT5
+### Distiled mT5
 
 | Metric | Score |
 |----------|----------|
