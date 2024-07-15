@@ -21,3 +21,32 @@ This project utilizes a modular architecture for Hindi text summarization throug
 
 This architecture ensures an efficient workflow from data collection to model deployment, providing a streamlined experience for users interested in Hindi text summarization.
 
+## Getting Started
+### 1. Clone the Repository:
+   ```bash
+   git clone https://github.com/sushanedulloo20/HindiTextSummarizer.git
+   ```
+
+
+### 2. Training from scratch 
+To train from scratch run the `Hindi_Summarization_training.ipynb`
+and save the model check points.
+
+Two model check points will be created :
+
+- Fine tuned mT5
+- Distill mT5
+
+
+### 3. Running Frontend
+
+1. Firstly install streamlit: 
+   ```bash
+   pip install streamlit
+   ```
+2. Load the path of check points in the `frontend.py`.
+
+3. Run the streamlit app in `frontend.py`:
+   ```bash
+   streamlit run frontend.py
+
