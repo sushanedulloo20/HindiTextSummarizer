@@ -50,3 +50,22 @@ Two model check points will be created :
    ```bash
    streamlit run frontend.py
 
+## Results (Rouge Scores):
+<table>
+    <tr>
+        <td>
+            <img src="/Screenshots/distillmt5.png" alt="First Image" width="300" />
+            <br />
+            Distilled mT5
+        </td>
+        <td>
+            <img src="/Screenshots/finetuned-mt5.png" alt="Second Image" width="300" />
+            <br />
+            Fine tuned mT5
+        </td>
+    </tr>
+</table>
+
+
+
+
