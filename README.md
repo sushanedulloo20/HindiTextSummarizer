@@ -50,21 +50,39 @@ Two model check points will be created :
    ```bash
    streamlit run frontend.py
 
-## Results (Rouge Scores):
-<table>
-    <tr>
-        <td>
-            <img src="/Screenshots/distillmt5.png" alt="First Image" width="300" />
-            <br />
-            Distilled mT5
-        </td>
-        <td>
-            <img src="/Screenshots/finetuned-mt5.png" alt="Second Image" width="300" />
-            <br />
-            Fine tuned mT5
-        </td>
-    </tr>
-</table>
+## Results:
+### Fine tuned mT5
+
+| Metric | Score |
+|----------|----------|
+| ROUGE-1 (Recall) | 0.703186 |
+| ROUGE-2 (Recall) | 0.594529 |
+| ROUGE-3 (Recall) | 0.663138|
+| ROUGE-1 (Precision) | 0.513940|
+| ROUGE-2 (Precision) | 0.418322 |
+| ROUGE-3 (Precision) | 0.487764|
+| ROUGE-1 (F-measure) | 0.573794 |
+| ROUGE-2 (F-measure) | 0.469463 |
+| ROUGE-3 (F-measure) | 0.543192 |
+
+### Distilee mT5
+
+| Metric | Score |
+|----------|----------|
+| ROUGE-1 (Recall) | 0.688883 |
+| ROUGE-2 (Recall) | 0.591462 |
+| ROUGE-3 (Recall) | 0.656319|
+| ROUGE-1 (Precision) | 0.525687|
+| ROUGE-2 (Precision) | 0.436652|
+| ROUGE-3 (Precision) | 0.503156|
+| ROUGE-1 (F-measure) | 0.578575|
+| ROUGE-2 (F-measure) | 0.483363|
+| ROUGE-3 (F-measure) | 0.552998|
+
+
+
+
+
 
 
 
